@@ -84,6 +84,8 @@ def time_to_value(time):
         time = time.strip().lower()
         day = "pm" in time
         time = time.replace("am", "").replace("pm", "").strip()
+        if ":" not in time:
+            time += ":00"
         hour, minute = map(int, time.split(":"))
         if hour < 1 or hour > 12 or minute < 0 or minute >= 60:
             return None  # Invalid time
@@ -171,9 +173,10 @@ def get_current_time_value():
 def get_valid_day():
     """Prompts the user for a valid day input."""
     while True:
-        day = input("> ").strip().capitalize()
-        if day in DAYS:
-            return day
+        day = input("> ")
+        cleaned_day = clean_day(day)
+        if cleaned_day:
+            return cleaned_day
         print("Invalid day! Please enter M, T, W, Th, F, or Sat.")
 
 def get_valid_time():
@@ -282,23 +285,25 @@ def process_raw_data():
                 for i in range(start, end):
                     rooms[room][day][i] = course_id
                     
-    return rooms, sorted_buildings, building_names
+    return rooms, sorted_buildings
 
-
-def get_current_day():
-    day = datetime.now().strftime("%a").upper()
-    match = re.match(r'TH|M|T|W|F|SAT|SAT', day)
+def clean_day(day):
+    match = re.match(r'TH|M|T|W|F|SAT|SAT', day.strip().upper())
     if not match:
         return None
     
     return match.group(0).capitalize()
 
+def get_current_day():
+    day = datetime.now().strftime("%a")
+    return clean_day(day)
+
 def main():
     """Main CLI loop."""
+    rooms, sorted_buildings = process_raw_data()
     while True:
         clear_screen()
         print("========= Empty Classroom Finder =========")
-        rooms, sorted_buildings, building_names = process_raw_data()
         print_buildings_table(sorted_buildings)
 
         room_prefix = input("Enter a room or building name (or leave blank to see all): ").strip().upper()
