@@ -314,7 +314,7 @@ def main():
         elif choice == "2":
             print("\nEnter time (e.g., 2:00 PM):")
             time_val = get_valid_time()
-            print("\nEnter the day you need the room for:")
+            print("\nEnter the day you need the room for (M, T, W, Th, F, or Sat):")
             day = get_valid_day()
             print(f"\nChecking rooms available at {value_to_time(time_val)} on {day}...\n")
             free_times(rooms, room_prefix, day, time_val)

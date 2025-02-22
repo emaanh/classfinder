@@ -1,187 +1,162 @@
 # **Campus Room Finder (CLI App)**
-A simple **command-line tool** to check for available study rooms on campus. It allows students to quickly find empty rooms **right now**, at a specific time, or see the full availability of a room/building for the day.
+A command-line tool to quickly check for available study rooms on campus. Find open rooms **right now**, at a specific time, or see full availability for a building.
 
 ---
 
 ## **Features**
-✅ **Find available rooms** at the current time, a specific time, or see full availability for the day  
-✅ **Lists all buildings** available on campus  
-✅ **Automatically detects the current day & time** when searching "right now"  
-✅ **Minimal and clean output** (only displays available rooms)  
+✅ **Find available rooms** instantly or at a specific time  
+✅ **View full availability** for any building throughout the day  
+✅ **List all buildings on campus with room counts**  
+✅ **Fast, lightweight, and easy-to-use CLI**
 
 ---
 
-## **Installation**
-### **Prerequisites**
-- Python 3.x installed on your system
-- A valid `courses.json` file containing the course schedule
-
-### **Clone the repository**
+## **Setup & Installation**
+### **1. Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/campus-room-finder.git
+git clone https://github.com/emaanh/roomfinder.git
 cd campus-room-finder
 ```
 
-### **Run the app**
+### **2. Create a Virtual Environment & Install Dependencies**
 ```sh
-python find_room.py
+python -m venv venv
+source venv/bin/activate  # Mac/Linux
+venv\Scripts\activate     # Windows
+pip install -r requirements.txt
+```
+
+### **3. (Optional) New Semester or School Setup**
+- **Default:** USC Spring 2025  
+- To update for a different semester or school, **fill `cookies.txt` with your web registration cookies** and run:
+  ```sh
+  python setup.py
+  ```
+
+### **4. Run the App**
+```sh
+python app.py
 ```
 
 ---
 
 ## **Usage**
-### **1. Select an option**
-When you run the program, you will be given two choices:
+### **1. View Popular Buildings**
+When you start the app, you will see a list of buildings with the number of available rooms:
 ```
-==== Campus Room Finder ====
-
-1. Find a room
-2. List all buildings
-> 
+Popular Buildings ([n] = Number of rooms):
+================================================================================
+Dr. Joseph Medicine Crow Public Affairs (DMC) [44]   Taper Hall (THH) [38]  
+Kaprielian Hall (KAP) [34]   Grace Ford Salvatori Hall (GFS) [31]  
+Zumberge Hall (ZHS) [25]   Waite Phillips Hall (WPH) [24]  
+Fertitta Hall (JFF) [20]   School of Cinematic Arts (SCA) [20]  
+Wallis Annenberg Hall (ANN) [17]   Social Sciences Building (SOS) [16]  
+...
+================================================================================
+Enter a room or building name (or leave blank to see all): 
 ```
-- **Option 1** → Find a study room  
-- **Option 2** → List all buildings available on campus  
+- Enter a **building name** (e.g., `THH`, `DMC`) or **leave blank** to see all buildings.
 
 ---
 
-### **2. Searching for a Room**
-After selecting **option 1**, enter a **room or building name** (e.g., "THH" or "ENG-204") or leave it blank to see all rooms.
-```
-Enter a room or building name (or leave blank to see all): THH
-```
-
----
-
-### **3. Choose a Time**
-Next, you will be asked **when** you need the room:
+### **2. Choose a Time**
+After selecting a building, choose when you need a room:
 ```
 When do you need the room?
 1. Right now
 2. At a specific time
 3. See full availability for today
-> 
+>
 ```
+#### **Option 1: Find a Room "Right Now"**
+- The app **automatically detects the current time and day**.
+- **Example Output:**
+  ```
+  Checking rooms available at 2:00 PM on Wednesday...
 
-- **Option 1 ("Right now")**  
-  - The app will use the **current time & day automatically**  
-  - **Example Output:**
-    ```
-    Checking rooms available at 3:20 PM today (T)...
+  DMC157 available until 4:00 PM
+  DMC102 available until 3:30 PM
+  DMC204 available until Midnight
+  DMC101 available until Midnight
+  ```
 
-    THH117 available until 4:00 PM
-    THH105 available until 5:00 PM
-    THH111 available until Midnight
-    ```
+#### **Option 2: Find a Room at a Specific Time**
+- You will be asked to enter a **time** and **day**:
+  ```
+  Enter time (e.g., 2:00 PM): 2:00 PM
+  Enter the day you need the room for: W
+  ```
 
-- **Option 2 ("At a specific time")**  
-  - You will be prompted to enter a time:
-    ```
-    Enter time (e.g., 2:00 PM): 
-    ```
-  - Then, you will enter the **day**:
-    ```
-    Enter the day you need the room for (e.g., M, T, W, Th, F, Sat):
-    ```
+#### **Option 3: See Full Availability for Today**
+- Shows all available time slots for a building throughout the day.
+  ```
+  Showing full availability for THH on F...
 
-- **Option 3 ("See full availability for today")**  
-  - The app will **list all available times for the room/building for the entire day**  
+  THH117 available:
+  9:00 AM to 10:00 AM
+  10:50 AM to 12:00 PM
+  1:50 PM to Midnight
+  ```
 
 ---
 
 ## **Example Searches**
-### **Find available rooms in THH right now**
+### **Find available rooms in THH for the whole day**
+```sh
+python app.py
 ```
-$ python find_room.py
-==== Campus Room Finder ====
-
-1. Find a room
-2. List all buildings
-> 1
-
-Enter a room or building name (or leave blank to see all): THH
-
+```
+Enter a room or building: THH
 When do you need the room?
 1. Right now
 2. At a specific time
 3. See full availability for today
-> 1
+> 3
 
-Checking rooms available at 3:20 PM today (T)...
+Showing full availability for THH on F...
 
-THH117 available until 4:00 PM
-THH105 available until 5:00 PM
-THH111 available until Midnight
+THH117 available:
+9:00 AM to 10:00 AM
+10:50 AM to 12:00 PM
+1:50 PM to Midnight
 ```
 
 ---
 
-### **Find available rooms in KAP at 2:30 PM on Wednesday**
+### **Find available rooms in DMC at 2:00 PM on Wednesday**
+```sh
+python app.py
 ```
-$ python find_room.py
-==== Campus Room Finder ====
-
-1. Find a room
-2. List all buildings
-> 1
-
-Enter a room or building name (or leave blank to see all): KAP
-
+```
+Enter a room or building: DMC
 When do you need the room?
 1. Right now
 2. At a specific time
 3. See full availability for today
 > 2
 
-Enter time (e.g., 2:00 PM): 2:30 PM
+Enter time (e.g., 2:00 PM):
+> 2:00 PM
 
-Enter the day you need the room for (e.g., M, T, W, Th, F, Sat):
+Enter the day you need the room for:
 > W
 
-Checking rooms available at 2:30 PM on W...
+Checking rooms available at 2:00 PM on W...
 
-KAP104 available until 4:00 PM
-KAP210 available until 6:30 PM
+DMC157 available until 4:00 PM
+DMC102 available until 3:30 PM
+DMC204 available until Midnight
+DMC101 available until Midnight
 ```
 
 ---
 
-### **List all available buildings**
-```
-$ python find_room.py
-==== Campus Room Finder ====
-
-1. Find a room
-2. List all buildings
-> 2
-
-Available buildings:
-ACB, ENG, GFS, KAP, THH
-
-Press Enter to continue...
-```
+## **Future Improvements**
+- Support for **multi-day searches** (e.g., "Find a room for both Tuesday and Thursday")  
+- **Holiday schedules** to exclude unavailable times  
+- **Room filtering** (e.g., only list rooms available for at least 2 hours)  
 
 ---
 
-## **JSON File Format (`courses.json`)**
-The `courses.json` file should contain an array of course objects with **location, time, and days**.
-```json
-[
-  {
-    "location": "THH117",
-    "time": "2:00 PM-3:30 PM",
-    "days": "M W F"
-  },
-  {
-    "location": "KAP104",
-    "time": "10:00 AM-12:00 PM",
-    "days": "T Th"
-  }
-]
-```
-
----
-
-## **Known Issues & Future Improvements**
-- The app **does not yet handle multi-day searches** (e.g., "Find a room on both Tuesday and Thursday").  
-- **Holiday schedules** are not considered; all courses are assumed to follow a normal week.  
-- **Would you like any extra features?** Feel free to submit an issue.
+🚀 **Now you're all set! Run the app and start finding study rooms effortlessly.**  
+Let me know if you need any changes! 😊
