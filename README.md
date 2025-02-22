@@ -1,15 +1,19 @@
-# **Campus Room Finder (CLI App)**
-A command-line tool to quickly check for available study rooms on campus. Find open rooms **right now**, at a specific time, or see full availability for a building.
+# **Campus Room Finder**
+A tool to quickly check for available rooms on campus. Find open rooms **right now**, at a specific time, or see full availability for a building/room.
 
 ---
 
-## **Personal Motivation**
-For some reason, I love hanging out in empty classrooms, using the blackboards, studying, talking to friends. Sometimes I want a private place to take a call or do homework between classes. Note: sometimes clubs or staff reserve rooms and my program cannot account for that. If a room has an excessive amount of availability during a particular day, that room is more likely to be subject to reservations through your university. 
 
 ## **Features**
 ✅ **Find available rooms** right now or at a specific time  
 ✅ **View full availability** for any building throughout the day  
 ✅ **Fast, robust, lightweight, and easy-to-use CLI**
+
+
+## **Personal Motivation**
+For some reason, I love hanging out in empty classrooms, using the blackboards, studying, talking to friends. Sometimes I want a private place to take a call or do homework between classes. 
+
+*Note: sometimes clubs or staff reserve rooms and my program cannot account for that. If a room has an excessive amount of availability during a particular day, that room is more likely to be subject to reservations through your university.*
 
 ---
 
@@ -100,5 +104,9 @@ When do you need the room?
   ```
 
 ---
+
+
+## **Final Notes**
+Sometimes clubs or staff reserve rooms and my program cannot account for that. If a room has an excessive amount of availability during a particular day, that room is more likely to be subject to reservations through your university.
 
 Let me know if you need any changes!
