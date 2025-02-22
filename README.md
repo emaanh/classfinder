@@ -1,4 +1,4 @@
-# **Campus Room Finder 📚 by Emaan Heidari**
+# **Emaan's Empty Classroom Finder 📚**
 A tool to quickly check for available rooms on campus. Find open rooms **right now**, at a specific time, or see full availability for a building/room. 
 
 To gather it's data, this app scrapes a university’s course registration page, compiling all course schedules, including times and locations, to determine room availability.
