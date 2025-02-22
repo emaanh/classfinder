@@ -1,5 +1,4 @@
 import requests
-# ALI
 
 def load_cookies_from_file(file_path):
     """

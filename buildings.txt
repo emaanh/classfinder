@@ -1,0 +1,542 @@
+1   125th Anniversary Fountain
+2	3434 S. Grand Building (CAL)
+3	34th Street Entrance
+4	Accounting Library (ACC)
+5	Admission Center (Steven and Kathryn Sample Hall) (SKS)
+6	Ahmanson Center (ACB)
+7	Ahn House (AHN)
+8	Alumni House (ALM)
+9	Alumni Park
+10	Amelia Taper Garden
+11	American Button Manufacturing Building (ABM)
+12	Andrus Gerontology Center (GER)
+13	Anna Bing Arnold Child Care Center (ABA)
+14	Anna Bing Arnold Child Care Center Annex (ABX)
+15	Annenberg Auditorium (ASC)
+16	Annenberg Coffee Cart (ASC)
+17	Annenberg House (ANH)
+18	Annenberg School for Communication & Journalism (ASC)
+19	Architecture and Fine Arts Library (WAH)
+20	Aresty Conference Center (NRT)
+21	Argue Plaza
+22	Argue Plaza Fountain
+23	Arts and Humanities Residential College at Parkside (PRB)
+24	Associates Park
+25	AT&T Center (ATT)
+26	Basketball Courts
+27	Bel-Air Apartments (BAA)
+28	Biegler Hall (BHE)
+29	Biggy Street Parking Structure (HSP)
+30	Bing Theatre (BIT)
+31	Birnkrant Residential College (BSR)
+32	Bishop Medical Teaching and Research Building (BMT)
+33	Blacklist
+34	Bogardus Courtyard
+35	Booth Hall (BMH)
+36	Bovard Administration Building (ADM)
+37	Bovard Auditorium (ADM)
+38	Brain and Creativity Institute (BCI)
+39	Brian Kennedy Field
+40	Bridge Hall (BRI)
+41	Brittingham Intramural Field (BIM)
+42	Broad CIRM Center (BCC)
+43	Brooks Pavilion (BDF)
+44	Cafe 84 (KOH)
+45	California Pizza Kitchen (TCC)
+46	California Plaza (CPB)
+47	Campus Development and Facilities (CDF)
+48	Cancer Research Laboratory (CRL)
+49	Capital Planning Trailer (CPT)
+50	Cardinal 'n' Gold
+51	Cardinal Gardens (CAR)
+52	Carolyn Craig Franklin Library Garden Courtyard
+53	Carson Center (CTV)
+54	Centennial Apartments (CEN)
+55	Center for the Health Professions Building (CHP)
+56	Central Services Building (CSB)
+57	Century Apartments (CAP)
+58	Chez Ronnee (CHE)
+59	Childrens Hospital Los Angeles
+60	Childs Way Building I (CWO)
+61	Childs Way Building II (CWT)
+62	Childs Way East Entrance
+63	Childs Way West Entrance
+64	Cinema Figueroa Building
+65	CitiGroup Center (CGC)
+66	Clinical Administration Building (CLB)
+67	Clinical Sciences Annex (CSA)
+68	Clinical Sciences Building (CSC)
+69	Clinical Sciences Lot (P2)
+70	Coffee Bean & Tea Leaf (TCC)
+71	College Academic Services Building (CAS)
+72	College House (CLH)
+73	Computer Center at Salvatori Computer Science Center (SAL)
+74	Corsica (COR)
+75	Crocker Business Library (HOH)
+76	Crocker Plaza
+77	Cromwell Field (CFX)
+78	Cromwell Field House (CFH)
+79	Dauterive Hall
+80	Davidson Continuing Education Center (DCC)
+81	Davidson Entrance
+82	Dedeaux Field (BDX)
+83	Denney Research Center (DRB)
+84	Department of Public Safety (PSA)
+85	Doheny Memorial Library (DML)
+86	Doheny Vision Research Center (DOH)
+87	Dornsife Cognitive Neuroscience Imaging Center (DNI)
+88	Dorothy and Hugh Edmondson Research Building (EDM)
+89	Douglas Fairbanks Statue and Fountain
+90	Downey Entrance
+91	Drama Center (DRC)
+92	E. F. Hutton Park
+93	East Library Building (ELB)
+94	Eastlake Lot (P4)
+95	Edmondson Faculty Center (EFC)
+96	Egg Company (EGG)
+97	Einstein Bros. Bagels (ZNI)
+98	Electron Microscopy and Microanalysis Center (CEM)
+99	Engemann Entrance
+100	Engemann Student Health Center (ESH)
+101	Enrollment Services (JHH)
+102	Entrance 1 (WWG)
+103	Entrance 2 (PWE)
+104	Entrance 3 (TFE)
+105	Entrance 4
+106	Entrance 5 (MCE)
+107	Entrance 6 (DWE)
+108	Entrance 7 (GSE)
+109	Entrance 8 (GEE)
+110	Entry 01
+111	Entry 03
+112	Entry 10
+113	Entry 14
+114	Entry 17
+115	Entry 23
+116	Entry 24
+117	Entry 26
+118	Epstein Family Plaza
+119	Everybody's Kitchen (BSR)
+120	Facilities Management Services (CDF)
+121	Fagg Gardens
+122	Fairmont Apartments (FMT)
+123	Figueroa Building (FIG)
+124	Fisher Entrance
+125	Fluor Tower (FLT)
+126	Founders Apartments (FSA)
+127	Founders Park
+128	Froehlich Gateway and Grove
+129	Gabilan Courtyard
+130	Galen Center (GEC)
+131	Garden Plaza
+132	Gavin Herbert Plaza
+133	General Labs Building (GLB)
+134	Generations
+135	George Tirebiter
+136	Gerontology Library (GER)
+137	Golf Practice Facility (GPC)
+138	Grace Ford Salvatori Hall (GFS)
+139	Graduate Fine Arts Building (IFT)
+140	Ground Zero Performance Cafe (TRO)
+141	Habit, The Burger Grill (TCC)
+142	Habitat Soozee (HAS)
+143	Hahn Central Plaza Fountain
+144	Hahn Plaza
+145	Hall Building (HSH)
+146	Hancock Foundation Building (AHF)
+147	Hancock Memorial Museum (AHF)
+148	Harlyne J. Norris Cancer Research Tower (NRT)
+149	Harris Hall (HAR)
+150	Health Research Association (HRA)
+151	Health Sciences Campus Child Care Center (CCC)
+152	Health Sciences DWP Electrical Vault (EVH)
+153	Health Sciences Telephone Vault (HSV)
+154	Healthcare Consultation Center I (HCC)
+155	Healthcare Consultation Center II (HCT)
+156	Hebrew Union College - Jewish Institute of Religion
+157	Hedco Chemical Engineering (HED)
+158	Hedco Neurosciences Building (HNB)
+159	Helena Apartments (HAP)
+160	Hellman Entrance
+161	Heritage Hall (HER)
+162	Herklotz Courtyard
+163	Hillel Jewish Center
+164	Hillview Apartments (HIL)
+165	Hinderstein Garden
+166	History Station - A Changing Campus
+167	History Station - A Communications Powerhouse
+168	History Station - A Gathering Place
+169	History Station - A Trojan for Life
+170	History Station - A World-Class University
+171	History Station - An International University
+172	History Station - Becoming a Research University
+173	History Station - Bloomers to Shorts - Women Athletes at USC
+174	History Station - Campus Life
+175	History Station - Campuses of USC's Medical School
+176	History Station - Champions
+177	History Station - Creating Southern California
+178	History Station - Edward L. Doheny Jr. Memorial Library - The Intellectual Heart of the Campus
+179	History Station - Endowing the Future
+180	History Station - Exposition Park and USC
+181	History Station - Health Care
+182	History Station - Information Please - The USC Libraries
+183	History Station - Love Affair with the Movies
+184	History Station - Mascots of Troy
+185	History Station - Olympic History
+186	History Station - Public Service
+187	History Station - Student Media
+188	History Station - Student Musical Traditions
+189	History Station - Teaching and Learning
+190	History Station - The Arts
+191	History Station - The Founding of USC
+192	History Station - The USC Associates
+193	History Station - The USC University Club
+194	History Station - Urban Legends
+195	History Station - USC After World War II
+196	History Station - USC and the World Wars
+197	History Station - Women's Organizations
+198	Hoffman Entrance
+199	Hoffman Hall (HOH)
+200	Hoffman Medical Research Center (HMR)
+201	Honors House (HHR)
+202	Hoose Library of Philosophy (MHP)
+203	Housing Services (PSX)
+204	Howard Jones Field
+205	HSC Lot 70 (P7)
+206	HSC Lot 71 (P14)
+207	HSC/Surplus Storage (SPS)
+208	Hubbard Hall (JHH)
+209	Hughes Aircraft Electrical Engineering Center (EEB)
+210	Human Relations Center (HRC)
+211	Instructional Media Services (IMS)
+212	International Plaza
+213	International Residential College at Parkside (IRC)
+214	Interns and Residents Dormitory (IRD)
+215	Irani Hall (RRI)
+216	Jaques Plaza
+217	Jeanette MacDonald Recital Hall (MUS)
+218	Jefferson Building (JEF)
+219	John McKay Center (JMC)
+220	John Stauffer Pharmaceutical Sciences Center (PSC)
+221	John Williams Scoring Stage (JWS)
+222	Joint Educational Project House (JEP)
+223	Kaprielian Hall (KAP)
+224	Keck Hospital of USC (UNH)
+225	Keck Hospital of USC Cafeteria (UNH)
+226	Keck Hospital of USC Parking Structure (UHP)
+227	Keck Hospital of USC Valet Lot (P12)
+228	Keith Administration Building (KAM)
+229	Kennedy Plaza
+230	Kerckhoff Carriage House (KCH)
+231	Kerckhoff Hall (KER)
+232	King Hall (KOH)
+233	King Hall Computer Center (KOH)
+234	Korean American Museum
+235	KSCR Radio (TCC)
+236	KUSC (MLP)
+237	La Sorbonne (LAB)
+238	Law Library (LAW)
+239	Law School Cafe (LAW)
+240	Lazzaro Plaza
+241	Leavey Information Commons (LVL)
+242	Leavey Library (LVL)
+243	Leavey Library Reflecting Pool
+244	Lemonade (TCC)
+245	Leventhal School of Accounting (ACC)
+246	Lewis Hall (RGL)
+247	Lindhurst Architecture Gallery (WAH)
+248	Lindhurst Fine Arts Gallery (WAH)
+249	LiteraTea Teahouse (DML)
+250	Little Chapel of Silence (TGF)
+251	Little Galen (GAP)
+252	Livingston Research Annex (LRA)
+253	Livingston Research Building (LRB)
+254	Lloyd Stage (CSS)
+255	Loker Hydrocarbon Research Institute (LHI)
+256	Loker Track Stadium (LTS)
+257	Los Angeles County+USC Medical Center
+258	Los Angeles Memorial Coliseum
+259	Lyon Center (LRC)
+260	MacDonald Becket Center (MBC)
+261	Mail Stop (PSX)
+262	Manor Apartments (MAB)
+263	Marks Hall (DXM)
+264	Marks Tennis Stadium (MTS)
+265	Marks Tower (DMT)
+266	Martens Plaza
+267	Massman Theatre (Drama Center) (DRC)
+268	Max Kade House (GEX)
+269	McAlister Academic Resource Center (MAR)
+270	McAlister Soccer Field
+271	McCarthy Quad
+272	McClintock Building and Theatre (MCC)
+273	McCulloch Townhomes (MCT)
+274	McDonald's Olympic Swim Stadium (MAC)
+275	McKay's (RMH)
+276	McKibben Addition (MCA)
+277	McKibben Hall (MCH)
+278	Medical Oncology Lab (MOL)
+279	Merle Norman Stadium
+280	Metro Expo Line - Expo Park/USC station
+281	Metro Expo Line - Expo/Vermont Station
+282	Metro Expo Line - Jefferson/USC Station
+283	Meyer Plaza
+284	Montgomery Ross Fisher Building (MRF)
+285	Moreton Fig (TCC)
+286	Moulton Organic Chemistry Wing (OCW)
+287	Moving Image Archive (NCT)
+288	Mudd Hall (MHP)
+289	Mudd Hall of Philosophy Courtyard
+290	Mudd Memorial Research Building (MMR)
+291	Museum of Science and Industry
+292	Musick Law Building (LAW)
+293	Nazarian Pavilion (DML)
+294	Neely Petroleum Engineering (PCE)
+295	New Residential College (NEW)
+296	Newman Recital Hall (AHF)
+297	Noble Plaza
+298	Norfolk Lot (P8)
+299	Norman Lear Center (NLC)
+300	Norman Topping Tower (NTT)
+301	Norris Cinema Theatre (NCT)
+302	Norris Dental Science Center (DEN)
+303	Norris Medical Library (NML)
+304	North Residential College (NRC)
+305	Ogasawara Plaza
+306	Old Entrance Fountain
+307	Olin Hall (OHE)
+308	ONE Institute (ONE)
+309	Ostrow Entrance
+310	Ostrow Faculty Practice (ESH)
+311	Outpatient Department (OPD)
+312	Pacific Apartments (PCA)
+313	Panda Express (TCC)
+314	Pappas Quad
+315	Pardee Plaza
+316	Pardee Tower (PTD)
+317	Parking Center (UPX)
+318	Parking Lot 1 (PL1)
+319	Parking Lot 20 (Alpha Gamma Omega)
+320	Parking Lot 21
+321	Parking Lot 22
+322	Parking Lot 23 (College House) (PL23)
+323	Parking Lot 27
+324	Parking Lot 28
+325	Parking Lot 29A
+326	Parking Lot 29B
+327	Parking Lot 39 (Regal Trojan Apartments)
+328	Parking Lot 40 (Bel-Air Apartments) (BAA)
+329	Parking Lot 41 (Cardinal 'n' Gold) (CNG)
+330	Parking Lot 42 (Cardinal Gardens) (CAR)
+331	Parking Lot 43 (Cardinal Gardens) (CAR)
+332	Parking Lot 45 (Centennial Apartments) (CEN)
+333	Parking Lot 46 (Century Apartments) (CAP)
+334	Parking Lot 47 (Century Apartments) (CAP)
+335	Parking Lot 48 (Century Apartments) (CAP)
+336	Parking Lot 49 (Century Apartments) (CAP)
+337	Parking Lot 5
+338	Parking Lot 50 (Century Apartments) (CAP)
+339	Parking Lot 52 (Fairmont Apartments) (FMT)
+340	Parking Lot 53 (Sierra Apartments) (SIE)
+341	Parking Lot 54 (Chabad House)
+342	Parking Lot 55 (Helena Apartments) (HAP)
+343	Parking Lot 56 (Hillview Apartments) (HIL)
+344	Parking Lot 57 (Honors House) (HHR)
+345	Parking Lot 58 (Annenberg House) (ANH)
+346	Parking Lot 59 (La Sorbonne) (LAB)
+347	Parking Lot 6 (PL6)
+348	Parking Lot 60 (Manor Apartments) (MAB)
+349	Parking Lot 61 (Pacific Apartments) (PCA)
+350	Parking Lot 65 (Senator Apartments) (SNA)
+351	Parking Lot 66 (Seven Gables Apartments) (SGA)
+352	Parking Lot 67 (Severance Street Apartments)
+353	Parking Lot 68 (Annenberg House)
+354	Parking Lot 69 (Stardust Apartments) (SAI)
+355	Parking Lot 72 (Troy Hall) (TRH)
+356	Parking Lot 73 (Troyland Apartments) (TAP)
+357	Parking Lot 74 (Twin Palms Apartments) (TPA)
+358	Parking Lot 75 (Regent Apartments) (RGA)
+359	Parking Lot 76 (Vista Apartments) (VIS)
+360	Parking Lot 77 (Windsor Apartments) (WIN)
+361	Parking Lot 81 (Terrace Apartments) (TSA)
+362	Parking Lot B (PLB)
+363	Parking Lot C (Credit Union Building)
+364	Parking Lot K1 (PLK1)
+365	Parking Lot M (PLM)
+366	Parking Lot SSRI (PLSSRI)
+367	Parking Lot V (PLV)
+368	Parking Lot Z (Robert Zemeckis Center)
+369	Parking Structure A (PSA)
+370	Parking Structure B (PSB)
+371	Parking Structure D (PSD)
+372	Parking Structure One (PSO)
+373	Parking Structure Two (PS2)
+374	Parking Structure X (PSX)
+375	Parkside Apartments (PKS)
+376	Parkside Restaurant (IRC)
+377	Parkview Medical Building (PMB)
+378	Phinney Hall (PHH)
+379	Physical Education Building (PED)
+380	Physical Therapy Associates (UPC) (ESH)
+381	Pisa (PIA)
+382	Playground Avenue House (PAV)
+383	Playground Duplex (PGD)
+384	Playground House III (PGT)
+385	Playground House IV (PGF)
+386	Playground House V (PGV)
+387	Plaza Market Place and Cafe (SRH)
+388	Popovich Cafe (JKP)
+389	Popovich Hall (JKP)
+390	Popovich Hall Courtyard
+391	Powell Hall (PHE)
+392	Public Safety Trailer (HSC) (PST)
+393	Queens Courtyard
+394	Radisson Mid-City Hotel (RMH)
+395	Rainbow Cafe (NOR)
+396	Ramo Hall (RHM)
+397	Rand Schrader Outpatient Clinic (RSC)
+398	Rapp Engineering Building (RRB)
+399	Raubenheimer Music Faculty Building (MUS)
+400	Raulston Memorial Research Building (RMR)
+401	Ray Stark Family Theatre (SCA)
+402	Regal Trojan Apartments (RTA)
+403	Regent Apartments (RGA)
+404	Registration Building (REG)
+405	Religious Center Entrance
+406	Research Annex / Hoffman Contracts Research Building (RAN)
+407	Richard K. Eamer Medical Plaza (EMP)
+408	Roma (ROM)
+409	Roski Master of Fine Arts Gallery/Graduate Fine Arts Building (IFT)
+410	Rosso's Pizzeria
+411	Salvatori Computer Science Center (SAL)
+412	San Pablo Parking Lot (P11)
+413	Scene Dock Theatre (SCD)
+414	Schoenfeld Symphonic Hall (AES)
+415	School of Cinematic Arts - SCA (SCA)
+416	School of Cinematic Arts - SCC (SCC)
+417	School of Cinematic Arts - SCE (SCE)
+418	School of Cinematic Arts - SCI (SCI)
+419	School of Cinematic Arts - SCX (SCX)
+420	School of Cinematic Arts -SCB (SCB)
+421	Seaver Residence Hall (SRH)
+422	Seaver Science Center (SSC)
+423	Seaver Science Library (SSL)
+424	Security Pacific Plaza
+425	Seeds Marketplace (TCC)
+426	Seeley G. Mudd Building (SGM)
+427	Senator Apartments (SNA)
+428	Seven Gables Apartments (SGA)
+429	Severance Street Apartments (SSA)
+430	Severance Street House (SSH)
+431	Shop Cafe (HAR)
+432	Shrine Auditorium (SHR)
+433	Sierra Apartments (SIE)
+434	Simon Ramo Recital Hall (BMH)
+435	Social Sciences Building (SOS)
+436	Social Work Center
+437	Social Work Entrance
+438	Soto Street Building (SSB)
+439	South San Pablo Lot (P3)
+440	Stabler Hall (LJS)
+441	Starbucks at Trojan Grounds (BSR)
+442	Stardust Apartments (SAI)
+443	Stauffer Hall (SHS)
+444	Stauffer Science Lecture Hall (SLH)
+445	Steven and Kathryn Sample Hall (SKS)
+446	Stever Courtyard
+447	Stonier Hall (STO)
+448	Storm and Dunmoyer's Green
+449	Student Health Insurance Office (ESH)
+450	Student Union (STU)
+451	Sunset Apartments (SUN)
+452	Surplus Sales (UPX)
+453	Taper Hall (THH)
+454	Technical Theatre Laboratory (TTL)
+455	Temporary Research Facility (TRF)
+456	Tennis Courts
+457	Terrace Apartments (TSA)
+458	The Bungalows (BUN)
+459	The Keck Medicine of USC-Downtown Los Angeles clinic
+460	The Lab
+461	The Music Complex (TMC)
+462	Theatre Scene Shop (TSS)
+463	Tommy Trojan
+464	Tommy's Place (TCC)
+465	Tower Hall (TOW)
+466	Town and Gown (TGF)
+467	Town and Gown Recognition Court and Mall
+468	Traditions (TCC)
+469	Trojan Bookstore (HSC) (SRH)
+470	Trojan Column
+471	Trojan League Courtyard
+472	Trojan Residence Hall (TRO)
+473	Trousdale North Entrance
+474	Trousdale South Entrance
+475	Troy East (TRE)
+476	Troy Hall (TRH)
+477	Troyland Apartments (TAP)
+478	Tuscany (TUS)
+479	Tutor Campus Center (TCC)
+480	Tutor Hall (RTH)
+481	Tutor Hall Cafe (RTH)
+482	Twin Palms Apartments (TPA)
+483	Tyler Building (TYL)
+484	United University Church (UUC)
+485	United University Church Entrance
+486	University Gardens Building (UGB)
+487	University Gardens Child Development Center (CBG)
+488	University Gateway (UGW)
+489	University Park Campus Pharmacy (STU)
+490	University Regent Apartments (URA)
+491	University Religious Center (URC)
+492	University Village Food Court and Restaurants
+493	URBNMRKT (CAL)
+494	USC Bookstores (BKS)
+495	USC Brain and Creativity Institute's Joyce J. Cammilleri Hall (BCI)
+496	USC Catholic Center
+497	USC Community Computing Center
+498	USC Community House (FMH)
+499	USC Credit Union - Flower St. (CUB)
+500	USC Credit Union - Student Union (STU)
+501	USC Fisher Museum of Art (HAR)
+502	USC Gas Station
+503	USC Kidney Center (TRC)
+504	USC Norris Comprehensive Cancer Center and Hospital (incl. Ezralow Research Tower) (NOR)
+505	USC Norris Patient Valet Lot (Entrance) (P9)
+506	USC Transportation (PSX)
+507	USC University Club at King Stoops Hall (EDL)
+508	USC University Club Entrance
+509	USC University Hospital Norris Tower (UHT)
+510	USC Westside Center for Diabetes
+511	USC Westside Prostate Cancer Center
+512	USCard Customer Service Office (PSX)
+513	Uytengsu Aquatics Center (UAC)
+514	Valley Boulevard Building (VBB)
+515	Valley Warehouse Building (VWB)
+516	Verde (TCC)
+517	Verle Annis Gallery (HAR)
+518	Villa Esperanza Center (VEC)
+519	Village Gate Theatre and Gallery
+520	Vista Apartments (VIS)
+521	Vivian Hall (VHE)
+522	Von KleinSmid Center (VKC)
+523	Von KleinSmid Center Library (VKC)
+524	Waite Phillips Hall (WPH)
+525	Waite Phillips Hall Computer Center (WPH)
+526	Watt Hall (WAH)
+527	Watt Way North Entrance
+528	Webb Tower (WTO)
+529	West Washington Building (WWB)
+530	Wilson Dental Library (DEN)
+531	Windsor Apartments (WIN)
+532	Women's and Children's Hospital (WOH)
+533	Wong Conference Center (HAR)
+534	Wong Entrance
+535	Wood, Robert Plaza
+536	Youth Triumphant
+537	Zamperini Plaza
+538	Zebra Cafe Coffee Cart HCT (HCT)
+539	Zebra Cafe Coffee Cart UNH (UNH)
+540	Zemeckis Center for Digital Arts (RZC)
+541	Zilkha Neurogenetic Institute (ZNI)
+542	Zumberge Hall (ZHS)

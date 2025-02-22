@@ -1,0 +1,1170 @@
+[
+    {
+        "name": "Anna Bing Arnold Child Care Center",
+        "code": "ABA"
+    },
+    {
+        "name": "American Button Manufacturing Building",
+        "code": "ABM"
+    },
+    {
+        "name": "Anna Bing Arnold Child Care Center Annex",
+        "code": "ABX"
+    },
+    {
+        "name": "Ahmanson Center",
+        "code": "ACB"
+    },
+    {
+        "name": "Accounting Library",
+        "code": "ACC"
+    },
+    {
+        "name": "Bovard Auditorium",
+        "code": "ADM"
+    },
+    {
+        "name": "Schoenfeld Symphonic Hall",
+        "code": "AES"
+    },
+    {
+        "name": "Newman Recital Hall",
+        "code": "AHF"
+    },
+    {
+        "name": "Ahn House",
+        "code": "AHN"
+    },
+    {
+        "name": "Alumni House",
+        "code": "ALM"
+    },
+    {
+        "name": "Annenberg House",
+        "code": "ANH"
+    },
+    {
+        "name": "Wallis Annenberg Hall",
+        "code": "ANN"
+    },
+    {
+        "name": "Annenberg Auditorium",
+        "code": "ASC"
+    },
+    {
+        "name": "At Mateo",
+        "code": "ATM"
+    },
+    {
+        "name": "AT&T Center",
+        "code": "ATT"
+    },
+    {
+        "name": "Bel-Air Apartments",
+        "code": "BAA"
+    },
+    {
+        "name": "Broad CIRM Center",
+        "code": "BCC"
+    },
+    {
+        "name": "Brain and Creativity Institute",
+        "code": "BCI"
+    },
+    {
+        "name": "Brooks Pavilion",
+        "code": "BDF"
+    },
+    {
+        "name": "Dedeaux Field",
+        "code": "BDX"
+    },
+    {
+        "name": "Biegler Hall",
+        "code": "BHE"
+    },
+    {
+        "name": "Brittingham Intramural Field",
+        "code": "BIM"
+    },
+    {
+        "name": "Bing Theatre",
+        "code": "BIT"
+    },
+    {
+        "name": "USC Bookstores",
+        "code": "BKS"
+    },
+    {
+        "name": "Booth Hall",
+        "code": "BMH"
+    },
+    {
+        "name": "Bishop Medical Teaching and Research Building",
+        "code": "BMT"
+    },
+    {
+        "name": "Bridge Hall",
+        "code": "BRI"
+    },
+    {
+        "name": "Everybody's Kitchen",
+        "code": "BSR"
+    },
+    {
+        "name": "The Bungalows",
+        "code": "BUN"
+    },
+    {
+        "name": "URBNMRKT",
+        "code": "CAL"
+    },
+    {
+        "name": "Century Apartments",
+        "code": "CAP"
+    },
+    {
+        "name": "Cardinal Gardens",
+        "code": "CAR"
+    },
+    {
+        "name": "College Academic Services Building",
+        "code": "CAS"
+    },
+    {
+        "name": "University Gardens Child Development Center",
+        "code": "CBG"
+    },
+    {
+        "name": "Health Sciences Campus Child Care Center",
+        "code": "CCC"
+    },
+    {
+        "name": "Facilities Management Services",
+        "code": "CDF"
+    },
+    {
+        "name": "Electron Microscopy and Microanalysis Center",
+        "code": "CEM"
+    },
+    {
+        "name": "Centennial Apartments",
+        "code": "CEN"
+    },
+    {
+        "name": "Cromwell Field House",
+        "code": "CFH"
+    },
+    {
+        "name": "Cromwell Field",
+        "code": "CFX"
+    },
+    {
+        "name": "CitiGroup Center",
+        "code": "CGC"
+    },
+    {
+        "name": "Chez Ronnee",
+        "code": "CHE"
+    },
+    {
+        "name": "Center for the Health Professions Building",
+        "code": "CHP"
+    },
+    {
+        "name": "Cale Residential College",
+        "code": "CIC"
+    },
+    {
+        "name": "Clinical Administration Building",
+        "code": "CLB"
+    },
+    {
+        "name": "College House",
+        "code": "CLH"
+    },
+    {
+        "name": "Parking Lot 41 (Cardinal 'n' Gold)",
+        "code": "CNG"
+    },
+    {
+        "name": "Corsica",
+        "code": "COR"
+    },
+    {
+        "name": "California Plaza",
+        "code": "CPB"
+    },
+    {
+        "name": "Capital Planning Trailer",
+        "code": "CPT"
+    },
+    {
+        "name": "Illium Residential College",
+        "code": "CRC"
+    },
+    {
+        "name": "Cancer Research Laboratory",
+        "code": "CRL"
+    },
+    {
+        "name": "Clinical Sciences Annex",
+        "code": "CSA"
+    },
+    {
+        "name": "Central Services Building",
+        "code": "CSB"
+    },
+    {
+        "name": "Clinical Sciences Building",
+        "code": "CSC"
+    },
+    {
+        "name": "Lloyd Stage",
+        "code": "CSS"
+    },
+    {
+        "name": "Colich Track & Field Center",
+        "code": "CTF"
+    },
+    {
+        "name": "Carson Center",
+        "code": "CTV"
+    },
+    {
+        "name": "USC Credit Union - Flower St.",
+        "code": "CUB"
+    },
+    {
+        "name": "Childs Way Building I",
+        "code": "CWO"
+    },
+    {
+        "name": "Childs Way Building II",
+        "code": "CWT"
+    },
+    {
+        "name": "Dramatic Arts Building",
+        "code": "DAB"
+    },
+    {
+        "name": "Davidson Continuing Education Center",
+        "code": "DCC"
+    },
+    {
+        "name": "Wilson Dental Library",
+        "code": "DEN"
+    },
+    {
+        "name": "Dr. Joseph Medicine Crow Center for International and Public Affairs",
+        "code": "DMC"
+    },
+    {
+        "name": "Nazarian Pavilion",
+        "code": "DML"
+    },
+    {
+        "name": "Marks Tower",
+        "code": "DMT"
+    },
+    {
+        "name": "Dornsife Cognitive Neuroscience Imaging Center",
+        "code": "DNI"
+    },
+    {
+        "name": "Doheny Vision Research Center",
+        "code": "DOH"
+    },
+    {
+        "name": "Denney Research Center",
+        "code": "DRB"
+    },
+    {
+        "name": "Drama Center",
+        "code": "DRC"
+    },
+    {
+        "name": "Entrance 6",
+        "code": "DWE"
+    },
+    {
+        "name": "Marks Hall",
+        "code": "DXM"
+    },
+    {
+        "name": "USC University Club at King Stoops Hall",
+        "code": "EDL"
+    },
+    {
+        "name": "Dorothy and Hugh Edmondson Research Building",
+        "code": "EDM"
+    },
+    {
+        "name": "Hughes Aircraft Electrical Engineering Center",
+        "code": "EEB"
+    },
+    {
+        "name": "Edmondson Faculty Center",
+        "code": "EFC"
+    },
+    {
+        "name": "Egg Company",
+        "code": "EGG"
+    },
+    {
+        "name": "East Library Building",
+        "code": "ELB"
+    },
+    {
+        "name": "Richard K. Eamer Medical Plaza",
+        "code": "EMP"
+    },
+    {
+        "name": "Ostrow Faculty Practice",
+        "code": "ESH"
+    },
+    {
+        "name": "Health Sciences DWP Electrical Vault",
+        "code": "EVH"
+    },
+    {
+        "name": "Figueroa Building",
+        "code": "FIG"
+    },
+    {
+        "name": "Fluor Tower",
+        "code": "FLT"
+    },
+    {
+        "name": "USC Community House",
+        "code": "FMH"
+    },
+    {
+        "name": "Fairmont Apartments",
+        "code": "FMT"
+    },
+    {
+        "name": "USC Facilities Planning and Management",
+        "code": "FPM"
+    },
+    {
+        "name": "Founders Apartments",
+        "code": "FSA"
+    },
+    {
+        "name": "Little Galen",
+        "code": "GAP"
+    },
+    {
+        "name": "Galen Center",
+        "code": "GEC"
+    },
+    {
+        "name": "Entrance 8",
+        "code": "GEE"
+    },
+    {
+        "name": "Gerontology Library",
+        "code": "GER"
+    },
+    {
+        "name": "Max Kade House",
+        "code": "GEX"
+    },
+    {
+        "name": "Grace Ford Salvatori Hall",
+        "code": "GFS"
+    },
+    {
+        "name": "General Labs Building",
+        "code": "GLB"
+    },
+    {
+        "name": "Golf Practice Facility",
+        "code": "GPC"
+    },
+    {
+        "name": "Entrance 7",
+        "code": "GSE"
+    },
+    {
+        "name": "Helena Apartments",
+        "code": "HAP"
+    },
+    {
+        "name": "Shop Cafe",
+        "code": "HAR"
+    },
+    {
+        "name": "Habitat Soozee",
+        "code": "HAS"
+    },
+    {
+        "name": "Healthcare Consultation Center I",
+        "code": "HCC"
+    },
+    {
+        "name": "Zebra Cafe Coffee Cart HCT",
+        "code": "HCT"
+    },
+    {
+        "name": "Hedco Chemical Engineering",
+        "code": "HED"
+    },
+    {
+        "name": "Heritage Hall",
+        "code": "HER"
+    },
+    {
+        "name": "Honors House",
+        "code": "HHR"
+    },
+    {
+        "name": "Hillview Apartments",
+        "code": "HIL"
+    },
+    {
+        "name": "Hoffman Medical Research Center",
+        "code": "HMR"
+    },
+    {
+        "name": "Hedco Neurosciences Building",
+        "code": "HNB"
+    },
+    {
+        "name": "Hoffman Hall",
+        "code": "HOH"
+    },
+    {
+        "name": "Health Research Association",
+        "code": "HRA"
+    },
+    {
+        "name": "Human Relations Center",
+        "code": "HRC"
+    },
+    {
+        "name": "Hall Building",
+        "code": "HSH"
+    },
+    {
+        "name": "Biggy Street Parking Structure",
+        "code": "HSP"
+    },
+    {
+        "name": "Health Sciences Telephone Vault",
+        "code": "HSV"
+    },
+    {
+        "name": "Graduate Fine Arts Building",
+        "code": "IFT"
+    },
+    {
+        "name": "Instructional Media Services",
+        "code": "IMS"
+    },
+    {
+        "name": "Parkside Restaurant",
+        "code": "IRC"
+    },
+    {
+        "name": "Interns and Residents Dormitory",
+        "code": "IRD"
+    },
+    {
+        "name": "USC Iovine and Young Hall",
+        "code": "IYH"
+    },
+    {
+        "name": "Jefferson Building",
+        "code": "JEF"
+    },
+    {
+        "name": "Joint Educational Project House",
+        "code": "JEP"
+    },
+    {
+        "name": "Fertitta Hall",
+        "code": "JFF"
+    },
+    {
+        "name": "Hubbard Hall",
+        "code": "JHH"
+    },
+    {
+        "name": "Popovich Hall",
+        "code": "JKP"
+    },
+    {
+        "name": "John McKay Center",
+        "code": "JMC"
+    },
+    {
+        "name": "John Williams Scoring Stage",
+        "code": "JWS"
+    },
+    {
+        "name": "Keith Administration Building",
+        "code": "KAM"
+    },
+    {
+        "name": "Kaprielian Hall",
+        "code": "KAP"
+    },
+    {
+        "name": "Kerckhoff Carriage House",
+        "code": "KCH"
+    },
+    {
+        "name": "Glorya Kaufman International Dance Center",
+        "code": "KDC"
+    },
+    {
+        "name": "Kerckhoff Hall",
+        "code": "KER"
+    },
+    {
+        "name": "Cafe 84",
+        "code": "KOH"
+    },
+    {
+        "name": "Amy King Dundon-Berchtold University Club of USC",
+        "code": "KSH"
+    },
+    {
+        "name": "La Sorbonne",
+        "code": "LAB"
+    },
+    {
+        "name": "Law Library",
+        "code": "LAW"
+    },
+    {
+        "name": "Loker Hydrocarbon Research Institute",
+        "code": "LHI"
+    },
+    {
+        "name": "Stabler Hall",
+        "code": "LJS"
+    },
+    {
+        "name": "Livingston Research Annex",
+        "code": "LRA"
+    },
+    {
+        "name": "Livingston Research Building",
+        "code": "LRB"
+    },
+    {
+        "name": "Lyon Center",
+        "code": "LRC"
+    },
+    {
+        "name": "Loker Track Stadium",
+        "code": "LTS"
+    },
+    {
+        "name": "Leavey Library",
+        "code": "LVL"
+    },
+    {
+        "name": "Manor Apartments",
+        "code": "MAB"
+    },
+    {
+        "name": "McDonald's Olympic Swim Stadium",
+        "code": "MAC"
+    },
+    {
+        "name": "McAlister Academic Resource Center",
+        "code": "MAR"
+    },
+    {
+        "name": "MacDonald Becket Center",
+        "code": "MBC"
+    },
+    {
+        "name": "McKibben Addition",
+        "code": "MCA"
+    },
+    {
+        "name": "Michelson Hall",
+        "code": "MCB"
+    },
+    {
+        "name": "McClintock Building and Theatre",
+        "code": "MCC"
+    },
+    {
+        "name": "Entrance 5",
+        "code": "MCE"
+    },
+    {
+        "name": "McKibben Hall",
+        "code": "MCH"
+    },
+    {
+        "name": "McCulloch Townhomes",
+        "code": "MCT"
+    },
+    {
+        "name": "McCarthy Honors Residential College",
+        "code": "MHC"
+    },
+    {
+        "name": "Mudd Hall",
+        "code": "MHP"
+    },
+    {
+        "name": "KUSC",
+        "code": "MLP"
+    },
+    {
+        "name": "Mudd Memorial Research Building",
+        "code": "MMR"
+    },
+    {
+        "name": "Medical Oncology Lab",
+        "code": "MOL"
+    },
+    {
+        "name": "McMorrow Residential College",
+        "code": "MRC"
+    },
+    {
+        "name": "Montgomery Ross Fisher Building",
+        "code": "MRF"
+    },
+    {
+        "name": "Marks Tennis Stadium",
+        "code": "MTS"
+    },
+    {
+        "name": "Marks Tennis Stadium",
+        "code": "MTX"
+    },
+    {
+        "name": "Jeanette MacDonald Recital Hall",
+        "code": "MUS"
+    },
+    {
+        "name": "Bohnett Residential College",
+        "code": "NBC"
+    },
+    {
+        "name": "Moving Image Archive",
+        "code": "NCT"
+    },
+    {
+        "name": "New Residential College",
+        "code": "NEW"
+    },
+    {
+        "name": "Norman Lear Center",
+        "code": "NLC"
+    },
+    {
+        "name": "Norris Medical Library",
+        "code": "NML"
+    },
+    {
+        "name": "Rainbow Cafe",
+        "code": "NOR"
+    },
+    {
+        "name": "North Residential College",
+        "code": "NRC"
+    },
+    {
+        "name": "Aresty Conference Center",
+        "code": "NRT"
+    },
+    {
+        "name": "Norman Topping Tower",
+        "code": "NTT"
+    },
+    {
+        "name": "Moulton Organic Chemistry Wing",
+        "code": "OCW"
+    },
+    {
+        "name": "Olin Hall",
+        "code": "OHE"
+    },
+    {
+        "name": "ONE Archives",
+        "code": "ONE"
+    },
+    {
+        "name": "Outpatient Department",
+        "code": "OPD"
+    },
+    {
+        "name": "Playground Avenue House",
+        "code": "PAV"
+    },
+    {
+        "name": "Pacific Apartments",
+        "code": "PCA"
+    },
+    {
+        "name": "Neely Petroleum Engineering",
+        "code": "PCE"
+    },
+    {
+        "name": "Physical Education Building",
+        "code": "PED"
+    },
+    {
+        "name": "Playground Duplex",
+        "code": "PGD"
+    },
+    {
+        "name": "Playground House IV",
+        "code": "PGF"
+    },
+    {
+        "name": "Playground House III",
+        "code": "PGT"
+    },
+    {
+        "name": "Playground House V",
+        "code": "PGV"
+    },
+    {
+        "name": "Powell Hall",
+        "code": "PHE"
+    },
+    {
+        "name": "Phinney Hall",
+        "code": "PHH"
+    },
+    {
+        "name": "Pisa",
+        "code": "PIA"
+    },
+    {
+        "name": "Parkside Apartments",
+        "code": "PKS"
+    },
+    {
+        "name": "Parking Lot B",
+        "code": "PLB"
+    },
+    {
+        "name": "Parking Lot M",
+        "code": "PLM"
+    },
+    {
+        "name": "Parking Lot SSRI",
+        "code": "PLSSRI"
+    },
+    {
+        "name": "Parking Lot V",
+        "code": "PLV"
+    },
+    {
+        "name": "Parkview Medical Building",
+        "code": "PMB"
+    },
+    {
+        "name": "Arts and Humanities Residential College at Parkside",
+        "code": "PRB"
+    },
+    {
+        "name": "Parking Structure A",
+        "code": "PSA"
+    },
+    {
+        "name": "Parking Structure B",
+        "code": "PSB"
+    },
+    {
+        "name": "John Stauffer Pharmaceutical Sciences Center",
+        "code": "PSC"
+    },
+    {
+        "name": "Parking Structure D",
+        "code": "PSD"
+    },
+    {
+        "name": "Parking Structure One",
+        "code": "PSO"
+    },
+    {
+        "name": "Public Safety Trailer (HSC)",
+        "code": "PST"
+    },
+    {
+        "name": "Mail Stop",
+        "code": "PSX"
+    },
+    {
+        "name": "Pardee Tower",
+        "code": "PTD"
+    },
+    {
+        "name": "Entrance 2",
+        "code": "PWE"
+    },
+    {
+        "name": "Research Annex/Hoffman Contracts Research Building",
+        "code": "RAN"
+    },
+    {
+        "name": "Registration Building",
+        "code": "REG"
+    },
+    {
+        "name": "Regent Apartments",
+        "code": "RGA"
+    },
+    {
+        "name": "Lewis Hall",
+        "code": "RGL"
+    },
+    {
+        "name": "Ramo Hall",
+        "code": "RHM"
+    },
+    {
+        "name": "McKay's",
+        "code": "RMH"
+    },
+    {
+        "name": "Raulston Memorial Research Building",
+        "code": "RMR"
+    },
+    {
+        "name": "Roma",
+        "code": "ROM"
+    },
+    {
+        "name": "Rapp Engineering Building",
+        "code": "RRB"
+    },
+    {
+        "name": "Irani Hall",
+        "code": "RRI"
+    },
+    {
+        "name": "Rand Schrader Outpatient Clinic",
+        "code": "RSC"
+    },
+    {
+        "name": "Regal Trojan Apartments",
+        "code": "RTA"
+    },
+    {
+        "name": "Tutor Hall",
+        "code": "RTH"
+    },
+    {
+        "name": "Zemeckis Center for Digital Arts",
+        "code": "RZC"
+    },
+    {
+        "name": "Stardust Apartments",
+        "code": "SAI"
+    },
+    {
+        "name": "Salvatori Computer Science Center",
+        "code": "SAL"
+    },
+    {
+        "name": "School of Cinematic Arts",
+        "code": "SCA"
+    },
+    {
+        "name": "School of Cinematic Arts",
+        "code": "SCB"
+    },
+    {
+        "name": "School of Cinematic Arts",
+        "code": "SCC"
+    },
+    {
+        "name": "Scene Dock Theatre",
+        "code": "SCD"
+    },
+    {
+        "name": "School of Cinematic Arts",
+        "code": "SCE"
+    },
+    {
+        "name": "School of Cinematic Arts",
+        "code": "SCI"
+    },
+    {
+        "name": "USC Building One",
+        "code": "SCO"
+    },
+    {
+        "name": "Cinematic Arts Station",
+        "code": "SCS"
+    },
+    {
+        "name": "USC Building Two",
+        "code": "SCT"
+    },
+    {
+        "name": "School of Cinematic Arts",
+        "code": "SCX"
+    },
+    {
+        "name": "Seven Gables Apartments",
+        "code": "SGA"
+    },
+    {
+        "name": "Seeley G. Mudd Building",
+        "code": "SGM"
+    },
+    {
+        "name": "Shrine Auditorum",
+        "code": "SHR"
+    },
+    {
+        "name": "Stauffer Hall",
+        "code": "SHS"
+    },
+    {
+        "name": "Sierra Apartments",
+        "code": "SIE"
+    },
+    {
+        "name": "Steven and Kathryn Sample Hall",
+        "code": "SKS"
+    },
+    {
+        "name": "Stauffer Science Lecture Hall",
+        "code": "SLH"
+    },
+    {
+        "name": "Senator Apartments",
+        "code": "SNA"
+    },
+    {
+        "name": "Social Sciences Building",
+        "code": "SOS"
+    },
+    {
+        "name": "HSC/Surplus Storage",
+        "code": "SPS"
+    },
+    {
+        "name": "Seaver Residence Hall",
+        "code": "SRH"
+    },
+    {
+        "name": "Severance Street Apartments",
+        "code": "SSA"
+    },
+    {
+        "name": "Soto Street Building",
+        "code": "SSB"
+    },
+    {
+        "name": "Seaver Science Center",
+        "code": "SSC"
+    },
+    {
+        "name": "Severance Street House",
+        "code": "SSH"
+    },
+    {
+        "name": "Seaver Science Library",
+        "code": "SSL"
+    },
+    {
+        "name": "Stonier Hall",
+        "code": "STO"
+    },
+    {
+        "name": "Student Union",
+        "code": "STU"
+    },
+    {
+        "name": "Sunset Apartments",
+        "code": "SUN"
+    },
+    {
+        "name": "Social Work Center",
+        "code": "SWC"
+    },
+    {
+        "name": "Troyland Apartments",
+        "code": "TAP"
+    },
+    {
+        "name": "Verde",
+        "code": "TCC"
+    },
+    {
+        "name": "Entrance 3",
+        "code": "TFE"
+    },
+    {
+        "name": "Town and Gown",
+        "code": "TGF"
+    },
+    {
+        "name": "Taper Hall",
+        "code": "THH"
+    },
+    {
+        "name": "The Music Complex",
+        "code": "TMC"
+    },
+    {
+        "name": "Tower Hall",
+        "code": "TOW"
+    },
+    {
+        "name": "Twin Palms Apartments",
+        "code": "TPA"
+    },
+    {
+        "name": "USC Kidney Center",
+        "code": "TRC"
+    },
+    {
+        "name": "Troy East",
+        "code": "TRE"
+    },
+    {
+        "name": "Temporary Research Facility",
+        "code": "TRF"
+    },
+    {
+        "name": "Troy Hall",
+        "code": "TRH"
+    },
+    {
+        "name": "Trojan Residence Hall",
+        "code": "TRO"
+    },
+    {
+        "name": "Terrace Apartments",
+        "code": "TSA"
+    },
+    {
+        "name": "Theatre Scene Shop",
+        "code": "TSS"
+    },
+    {
+        "name": "Technical Theatre Laboratory",
+        "code": "TTL"
+    },
+    {
+        "name": "Tuscany",
+        "code": "TUS"
+    },
+    {
+        "name": "Tyler Building",
+        "code": "TYL"
+    },
+    {
+        "name": "Uytengsu Aquatics Center",
+        "code": "UAC"
+    },
+    {
+        "name": "University Gardens Building",
+        "code": "UGB"
+    },
+    {
+        "name": "University Gateway",
+        "code": "UGW"
+    },
+    {
+        "name": "Keck Hospital of USC Parking Structure",
+        "code": "UHP"
+    },
+    {
+        "name": "USC University Hospital Norris Tower",
+        "code": "UHT"
+    },
+    {
+        "name": "Keck Hospital of USC",
+        "code": "UNH"
+    },
+    {
+        "name": "Surplus Sales",
+        "code": "UPX"
+    },
+    {
+        "name": "University Regent Apartments",
+        "code": "URA"
+    },
+    {
+        "name": "University Religious Center",
+        "code": "URC"
+    },
+    {
+        "name": "United University Church",
+        "code": "UUC"
+    },
+    {
+        "name": "Valley Boulevard Building",
+        "code": "VBB"
+    },
+    {
+        "name": "Villa Esperanza Center",
+        "code": "VEC"
+    },
+    {
+        "name": "Vivian Hall",
+        "code": "VHE"
+    },
+    {
+        "name": "Vista Apartments",
+        "code": "VIS"
+    },
+    {
+        "name": "Von KleinSmid Center",
+        "code": "VKC"
+    },
+    {
+        "name": "Verna and Peter Dauterive Hall",
+        "code": "VPD"
+    },
+    {
+        "name": "Valley Warehouse Building",
+        "code": "VWB"
+    },
+    {
+        "name": "Watt Hall",
+        "code": "WAH"
+    },
+    {
+        "name": "Windsor Apartments",
+        "code": "WIN"
+    },
+    {
+        "name": "Women's and Children's Hospital",
+        "code": "WOH"
+    },
+    {
+        "name": "Waite Phillips Hall",
+        "code": "WPH"
+    },
+    {
+        "name": "Webb Tower",
+        "code": "WTO"
+    },
+    {
+        "name": "West Washington Building",
+        "code": "WWB"
+    },
+    {
+        "name": "Entrance 1",
+        "code": "WWG"
+    },
+    {
+        "name": "Zumberge Hall",
+        "code": "ZHS"
+    },
+    {
+        "name": "Einstein Bros. Bagels",
+        "code": "ZNI"
+    }
+]
