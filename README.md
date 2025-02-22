@@ -53,9 +53,9 @@ When you start the app, you will see a list of buildings with the number of avai
 Popular Buildings ([n] = Number of rooms):
 ====================================================
 Dr. Joseph ... Public Affairs (DMC) [44]
-Taper Hall (THH) [38]  
-Kaprielian Hall (KAP) [34] 
-Grace Ford Salvatori Hall (GFS) [31]  
+Taper Hall                    (THH) [38]  
+Kaprielian Hall               (KAP) [34] 
+Grace Ford Salvatori Hall     (GFS) [31]  
 ...
 =====================================================
 Enter a room or building name (or leave blank to see all): 
