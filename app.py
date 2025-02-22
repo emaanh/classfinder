@@ -4,15 +4,20 @@ import os
 from datetime import datetime
 import copy
 from collections import defaultdict
+from collections import deque
+
 
 # === CONFIGURATION ===
 MIN_ROOMS_TO_DISPLAY = 3  # Change this value to filter buildings with fewer unique rooms
-FIRST_COL_WIDTH = 35  # Max width for the first column
-SECOND_COL_WIDTH = 20  # Max width for the second column
-EQUAL_SIGN_LENGTH = 80  # Length of the '=' separator
+MIN_COURSES_TO_DISPLAY = 4
+
+FIRST_COL_WIDTH = 34  # Max width for the first column
+SECOND_COL_WIDTH = 30  # Max width for the second column
+EQUAL_SIGN_LENGTH = (FIRST_COL_WIDTH+SECOND_COL_WIDTH)+25  # Length of the '=' separator
 DAYS = ['M', 'T', 'W', 'Th', 'F', 'Sat']
 ROOM_ENDINGS = ["B","LL","L", "G"]
 EARLIEST_START = "9:00am"
+UNNEEDED_WORDS = ["hall", "building", "for", "and", "of", "the"]
 
 
 def extract_building_prefix(location, building_names):
@@ -28,12 +33,34 @@ def extract_building_prefix(location, building_names):
         return prefix  
     return None
 
+
 def truncate_name(name, max_length):
-    """Truncates name with '...' in the middle if it exceeds max_length."""
+    """Truncates name by removing words from the middle until it fits max_length, replacing them with '...'."""
     if len(name) <= max_length:
         return name
-    half_length = (max_length - 3) // 2  
-    return name[:half_length] + "..." + name[-half_length:]
+    
+    words = name.split()
+    
+    words = [word for word in words if word.lower() not in UNNEEDED_WORDS]
+    
+    ellipse = "..." 
+                
+    curr_len = len(" ".join(words))
+    if curr_len <= max_length:
+        return " ".join(words)
+    
+    ellipse = "..." 
+    
+    while words and curr_len > max_length:
+        curr_len -= (len(words[-1])+1)
+        del words[-1]
+
+    if(curr_len +len(ellipse) > max_length):
+        ellipse = ""
+        
+    return " ".join(words) + ellipse
+
+
 
 def print_buildings_table(buildings_list):
     """Prints buildings in a two-column format with truncated names, sorted by unique room count."""
@@ -44,7 +71,7 @@ def print_buildings_table(buildings_list):
     padding = 0  
 
     # Calculate max digits in unique room counts to align numbers
-    max_room_digits = max(len(str(count)) for _, _, count in buildings_list)
+    max_room_digits = max(len(str(count)) for _, _, count, _ in buildings_list)
     bracket_width = max_room_digits + 3  
 
     # Distribute buildings column-wise instead of row-wise
@@ -211,6 +238,7 @@ def process_raw_data():
 
     # Count how many **unique rooms** exist in each building
     building_room_counts = defaultdict(set)
+    building_course_counts = defaultdict(set)
 
     # KAMB21/23
     # SCA214 SCAB105 SCESTG1 
@@ -235,6 +263,9 @@ def process_raw_data():
                 building_prefix = extract_building_prefix(location, building_names)
                 if building_prefix and building_prefix in building_names:
                     building_room_counts[building_prefix].add(location) 
+                    building_course_counts[building_prefix] = building_course_counts.get(building_prefix, 0) + 1
+                
+                    
                     buildings.add(building_prefix.upper())
                 for time_match in time_matches:
                     start_time = time_match.group(1)
@@ -251,20 +282,6 @@ def process_raw_data():
                     course_copy["days"] = split_days(course_copy["days"])
                     
                     courses.append(course_copy)
-
-
-    # Convert set counts to actual integer counts
-    building_room_counts = {code: len(rooms) for code, rooms in building_room_counts.items()}
-
-    # Keep only buildings that actually have classes and meet the minimum room requirement
-    filtered_buildings = [
-        (code, building_names[code], count)
-        for code, count in building_room_counts.items()
-        if count >= MIN_ROOMS_TO_DISPLAY
-    ]
-
-    # Sort by number of **unique rooms** (descending)
-    sorted_buildings = sorted(filtered_buildings, key=lambda x: x[2], reverse=True)
 
     for course_id, course in enumerate(courses):
         room = course["location"].upper()  # Ensure case insensitivity
@@ -284,6 +301,20 @@ def process_raw_data():
             if day in course["days"]:
                 for i in range(start, end):
                     rooms[room][day][i] = course_id
+                    
+    
+    # Convert set counts to actual integer counts
+    building_room_counts = {code: len(rooms) for code, rooms in building_room_counts.items()}
+
+    # Keep only buildings that actually have classes and meet the minimum room requirement
+    filtered_buildings = [
+        (code, building_names[code], count, building_course_counts[code])
+        for code, count in building_room_counts.items()
+        if count >= MIN_ROOMS_TO_DISPLAY and building_course_counts[code] >= MIN_COURSES_TO_DISPLAY
+    ]
+
+    # Sort by number of **unique rooms** (descending)
+    sorted_buildings = sorted(filtered_buildings, key=lambda x: x[3], reverse=True)
                     
     return rooms, sorted_buildings
 
