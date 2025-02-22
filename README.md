@@ -1,4 +1,4 @@
-# **Campus Room Finder**
+# **Campus Room Finder 📚**
 A tool to quickly check for available rooms on campus. Find open rooms **right now**, at a specific time, or see full availability for a building/room.
 
 ---
@@ -12,8 +12,6 @@ A tool to quickly check for available rooms on campus. Find open rooms **right n
 
 ## **Personal Motivation**
 For some reason, I love hanging out in empty classrooms, using the blackboards, studying, talking to friends. Sometimes I want a private place to take a call or do homework between classes. 
-
-*Note: sometimes clubs or staff reserve rooms and my program cannot account for that. If a room has an excessive amount of availability during a particular day, that room is more likely to be subject to reservations through your university.*
 
 ---
 
