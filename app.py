@@ -284,11 +284,20 @@ def process_raw_data():
                     
     return rooms, sorted_buildings, building_names
 
+
+def get_current_day():
+    day = datetime.now().strftime("%a").upper()
+    match = re.match(r'TH|M|T|W|F|SAT|SAT', day)
+    if not match:
+        return None
+    
+    return match.group(0).capitalize()
+
 def main():
     """Main CLI loop."""
     while True:
         clear_screen()
-        print("==== Campus Room Finder ====\n")
+        print("========= Empty Classroom Finder =========")
         rooms, sorted_buildings, building_names = process_raw_data()
         print_buildings_table(sorted_buildings)
 
@@ -321,9 +330,12 @@ def main():
             
 
         elif choice == "3":
-            day = datetime.now().strftime("%a")[0]  # Get the current day abbreviation (M, T, W, etc.)
-            print(f"\nShowing full availability for {room_prefix or 'all rooms'} on {day}...\n")
-            free_times(rooms, room_prefix, day)
+            day = get_current_day()  # Get the current day abbreviation (M, T, W, etc.)
+            if(not day):
+                print("FAILED DAY")
+            else:
+                print(f"\nShowing full availability for {room_prefix or 'all rooms'} on {day}...\n")
+                free_times(rooms, room_prefix, day)
 
         input("\nPress Enter to search again or Ctrl+C to exit...")
 

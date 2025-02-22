@@ -106,7 +106,12 @@ When do you need the room?
 ---
 
 
-## **Final Notes**
+## **Limitations**
 Sometimes clubs or staff reserve rooms and my program cannot account for that. If a room has an excessive amount of availability during a particular day, that room is more likely to be subject to reservations through your university.
+
+Doors of rooms are sometimes locked before the building is locked. 
+
+The more students that use this app, the more likely you are to enter a room with a user already occupying it.
+
 
 Let me know if you need any changes!
