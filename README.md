@@ -13,7 +13,7 @@ To gather it's data, this app scrapes a university’s course registration page,
 
 
 ## **Personal Motivation**
-For some reason, I love hanging out in empty classrooms, using the blackboards, studying, talking to friends. Sometimes I want a private place to take a call or do homework between classes. 
+I’ve always enjoyed spending time in empty classrooms—using the blackboards, studying, either alone or with friends. Sometimes, I need a quiet space to take a call or get work done between classes, but library study rooms are often booked for hours and you can't reserve them for long. This tool makes it easy to find open classrooms when I need them.
 
 ---
 
