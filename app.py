@@ -1,10 +1,12 @@
+#!/usr/bin/env python3
 import json
 import re
 import os
 from datetime import datetime
 import copy
 from collections import defaultdict
-from collections import deque
+import argparse
+import sys
 
 
 # === CONFIGURATION ===
@@ -22,7 +24,7 @@ UNNEEDED_WORDS = ["hall", "building", "for", "and", "of", "the"]
 
 def extract_building_prefix(location, building_names):
     """Extracts the building prefix from a location, handling 'B' and 'LL' corrections."""
-    match = re.match(r"^([A-Za-z]+)(\d+)$", location)
+    match = re.match(r"^([A-Za-z]+)(\d+[A-Za-z]?)$", location)
     if match:
         prefix = match.group(1)
         
@@ -159,7 +161,7 @@ def find_negative_sequences(arr, min_length=2, earliest=EARLIEST_START):
 
 def free_times(rooms, room_prefix, day, specific_time=None):
     """Displays free times for rooms that match the prefix in the new format."""
-    matched_rooms = [r for r in rooms.keys() if r.startswith(room_prefix.upper())]
+    matched_rooms = sorted([r for r in rooms.keys() if r.startswith(room_prefix.upper())])
     
     if not matched_rooms:
         print(f"No rooms found matching '{room_prefix}'.")
@@ -251,7 +253,7 @@ def process_raw_data():
 
     # Process course data to count how many **unique rooms** exist in each building
     for course in raw_courses:
-        loc_matches = re.finditer(r"([A-Za-z]+)(\d+)", course["location"])
+        loc_matches = re.finditer(r"([A-Za-z]+)(\d+[A-Za-z]?)", course["location"])
         
         for loc_match in loc_matches:
             location = loc_match.group(0)
@@ -329,7 +331,7 @@ def get_current_day():
     day = datetime.now().strftime("%a")
     return clean_day(day)
 
-def main():
+def main_loop():
     """Main CLI loop."""
     rooms, sorted_buildings = process_raw_data()
     while True:
@@ -374,6 +376,62 @@ def main():
                 free_times(rooms, room_prefix, day)
 
         input("\nPress Enter to search again or Ctrl+C to exit...")
+
+def parse_time_string(time_str):
+    if time_to_value(time_str) == None:
+        raise ValueError(f"Invalid time format: {time_str}")
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="ECF - Empty Classroom Finder")
+
+    parser.add_argument("query", nargs="?", default=None,
+                        help="Building, floor, or full room name (e.g., THT, THT1, THT123)")
+
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("--at", metavar="TIME", type=str,
+                       help="Specific time to check (e.g., 3pm, 14:00, 2:30pm, now)")
+    group.add_argument("--full", action="store_true",
+                       help="Show full-day availability")
+
+    parser.add_argument("--day", type=str.lower, choices=DAYS,
+                        help="Day of the week (e.g., mon, tue, wed)")
+
+    return parser.parse_args()
+
+def main():
+    raw_args = sys.argv[1:]
+    if not raw_args:
+        main_loop()
+        return
+    
+    args = parse_args()
+    
+    day = args.day or datetime.now().strftime("%a").lower()[:3]
+
+    # Determine the mode
+    if args.full:
+        mode = "full"
+        time = None
+    elif args.at:
+        try:
+            time = parse_time_string(args.at)
+            mode = "time"
+        except ValueError as e:
+            print(f"❌ {e}")
+            sys.exit(1)
+    else:
+        mode = "time"
+        time = datetime.now().time()
+
+    # Output summary
+    print("\n📋 Parsed Request:")
+    print(f"  Location Filter : {args.query or 'ALL'}")
+    print(f"  Mode            : {'Full-Day View' if mode == 'full' else 'Check Specific Time'}")
+    print(f"  Day             : {day.capitalize()}")
+    if time:
+        print(f"  Time            : {time.strftime('%I:%M %p')}")
+    print()
+    
 
 if __name__ == "__main__":
     main()

@@ -14,12 +14,19 @@ def scrape_courses():
 
     for code in codes:
         print(f"Processing course: {code}")
-        html = getCourseHTML(code)
-        parsed_courses = parse_course_html(html)
-        all_parsed_courses.extend(parsed_courses)
-        s = random.randint(1,3)
-        print(f"Sleeping for {s} seconds" )
-        time.sleep(random.randint(1,3))
+        page_number = 1
+        while(True):
+            html = getCourseHTML(page_number, code)
+            
+            if html == None:
+                break
+            
+            parsed_courses = parse_course_html(html)
+            all_parsed_courses.extend(parsed_courses)
+            page_number +=1
+            s = random.randint(1,3)
+            print(f"Sleeping for {s} seconds" )
+            time.sleep(random.randint(1,3))
 
     save_to_json(all_parsed_courses, output_json)
     print(f"Saved parsed courses to {output_json}")
@@ -39,5 +46,5 @@ def scrape_buildings():
     merge_and_update_json(api_buildings, txt_buildings, JSON_FILE)
 
 if __name__ == "__main__":
-    scrape_buildings()
+    # scrape_buildings()
     scrape_courses()
